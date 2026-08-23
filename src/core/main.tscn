@@ -1,9 +1,16 @@
 [gd_scene format=3 uid="uid://csehfx88edrj1"]
 
+[ext_resource type="Texture2D" uid="uid://bq5ts8nb6niey" path="res://assets/art/characters/template_player.png" id="1_ivtyw"]
 [ext_resource type="PackedScene" uid="uid://bwmhixliuiiqq" path="res://src/ui/debug/debug_text_overlay.tscn" id="1_ukt3u"]
 
 [node name="Main" type="Node" unique_id=1077554886]
 process_mode = 3
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1031792369]
+zoom = Vector2(2, 2)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1236301166]
+texture = ExtResource("1_ivtyw")
 
 [node name="DebugLayer" type="CanvasLayer" parent="." unique_id=1767459730]
 process_mode = 3

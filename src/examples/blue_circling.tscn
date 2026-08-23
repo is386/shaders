@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://dxwmyjxjxmc7m"]
+
+[ext_resource type="Shader" uid="uid://ujcsx2aaq75" path="res://src/shaders/blue_circling.gdshader" id="1_6rogd"]
+[ext_resource type="Texture2D" uid="uid://bq5ts8nb6niey" path="res://assets/art/characters/template_player.png" id="2_6rogd"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_6rogd"]
+shader = ExtResource("1_6rogd")
+shader_parameter/blue = 1.0
+
+[node name="BlueCircling" type="Node2D" unique_id=1349355337]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=132355091]
+material = SubResource("ShaderMaterial_6rogd")
+texture = ExtResource("2_6rogd")

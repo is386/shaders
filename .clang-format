@@ -1,0 +1,15 @@
+# Formatting for .gdshader / .gdshaderinc files.
+# Matches https://docs.godotengine.org/en/stable/tutorials/shaders/shaders_style_guide.html
+BasedOnStyle: LLVM
+UseTab: Always
+IndentWidth: 4
+TabWidth: 4
+ColumnLimit: 100
+SortIncludes: false
+InsertBraces: true
+
+# GDShader function bodies must never be collapsed onto one line.
+AllowShortFunctionsOnASingleLine: None
+AllowShortBlocksOnASingleLine: Never
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
