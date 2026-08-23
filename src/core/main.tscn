@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://csehfx88edrj1"]
+
+[ext_resource type="PackedScene" uid="uid://bwmhixliuiiqq" path="res://src/ui/debug/debug_text_overlay.tscn" id="1_ukt3u"]
+
+[node name="Main" type="Node" unique_id=1077554886]
+process_mode = 3
+
+[node name="DebugLayer" type="CanvasLayer" parent="." unique_id=1767459730]
+process_mode = 3
+layer = 200
+
+[node name="DebugTextOverlay" parent="DebugLayer" unique_id=150186020 instance=ExtResource("1_ukt3u")]
+mouse_behavior_recursive = 1
