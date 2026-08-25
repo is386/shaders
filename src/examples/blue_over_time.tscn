@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://b6pdxlmyybhrw"]
+
+[ext_resource type="Shader" uid="uid://bkuksj3il71v1" path="res://src/visual_shaders/blue_over_time.tres" id="1_m5xnf"]
+[ext_resource type="Texture2D" uid="uid://4q335xxs2p" path="res://icon.svg" id="2_ex6hv"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_oeks0"]
+shader = ExtResource("1_m5xnf")
+
+[node name="BlueOverTime" type="Sprite2D" unique_id=1680336036]
+material = SubResource("ShaderMaterial_oeks0")
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_ex6hv")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1264657495]
