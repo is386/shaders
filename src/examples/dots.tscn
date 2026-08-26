@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://slfmro415c5j"]
+
+[ext_resource type="Shader" uid="uid://cx6kscxk6tpgv" path="res://src/visual_shaders/dots.tres" id="1_6nbvr"]
+[ext_resource type="Texture2D" uid="uid://4q335xxs2p" path="res://icon.svg" id="2_yiu0f"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_5dypg"]
+shader = ExtResource("1_6nbvr")
+
+[node name="Dots" type="Sprite2D" unique_id=1254176550]
+material = SubResource("ShaderMaterial_5dypg")
+texture = ExtResource("2_yiu0f")
+offset = Vector2(0.5, 0.5)
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=583992476]
