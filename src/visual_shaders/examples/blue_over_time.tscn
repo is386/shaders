@@ -8,7 +8,6 @@ shader = ExtResource("1_m5xnf")
 
 [node name="BlueOverTime" type="Sprite2D" unique_id=1680336036]
 material = SubResource("ShaderMaterial_oeks0")
-scale = Vector2(0.5, 0.5)
 texture = ExtResource("2_ex6hv")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1264657495]
